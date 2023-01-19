@@ -52,12 +52,12 @@ class EtoileMysterieuse extends Program{
     final int cpt_moyen = 10;
     final int cpt_difficile = 8;
 
-    final File image_1 = newFile("Cendrillon.txt");
-    final File image_2 = newFile("Olaf.txt");
-    final File image_3 = newFile("Dora.txt");
-    final File image_4 = newFile("Luigi.txt");
-    final File image_5 = newFile("Minnie.txt");
-    final File image_bienvenue = newFile("Bienvenue.txt");
+    final File image_1 = newFile("../ressources/Cendrillon.txt");
+    final File image_2 = newFile("../ressources/Olaf.txt");
+    final File image_3 = newFile("../ressources/Dora.txt");
+    final File image_4 = newFile("../ressources/Luigi.txt");
+    final File image_5 = newFile("../ressources/Minnie.txt");
+    final File image_bienvenue = newFile("../ressources/Bienvenue.txt");
 
     final Questions math_un = newQuestion("45 + 9 = ", "54", "63", "55", "89");
     final Questions math_deux = newQuestion("7 * 7 = ", "49", "98", "5", "13");
@@ -287,15 +287,15 @@ class EtoileMysterieuse extends Program{
         println();
         File image_final = image_1;
         if (matiere == maths){
-            image_final = newFile("Cendrillon.txt");
+            image_final = newFile("../ressources/Cendrillon.txt");
         }else if (matiere == histoire){
-            image_final = newFile("Olaf.txt");
+            image_final = newFile("../ressources/Olaf.txt");
         }else if (matiere == geo){
-            image_final = newFile("Dora.txt");
+            image_final = newFile("../ressources/Dora.txt");
         }else if (matiere == français){
-            image_final = newFile("Luigi.txt");
+            image_final = newFile("../ressources/Luigi.txt");
         }else if (matiere == anglais){
-            image_final = newFile("Minnie.txt");
+            image_final = newFile("../ressources/Minnie.txt");
         }
         int cpt_image = 0;
         int tour = 0;
@@ -347,15 +347,15 @@ class EtoileMysterieuse extends Program{
                 println(readLine(image_final));
             }
             if (matiere == maths){
-                image_final = newFile("Cendrillon.txt");
+                image_final = newFile("../ressources/Cendrillon.txt");
             }else if (matiere == histoire){
-                image_final = newFile("Olaf.txt");
+                image_final = newFile("../ressources/Olaf.txt");
             }else if (matiere == geo){
-                image_final = newFile("Dora.txt");
+                image_final = newFile("../ressources/Dora.txt");
             }else if (matiere == français){
-                image_final = newFile("Luigi.txt");
+                image_final = newFile("../ressources/Luigi.txt");
              }else if (matiere == anglais){
-                image_final = newFile("Minnie.txt");
+                image_final = newFile("../ressources/Minnie.txt");
             }
             points += 1;
             println();
@@ -365,15 +365,15 @@ class EtoileMysterieuse extends Program{
                 println(readLine(image_final));
             }
             if (matiere == maths){
-                image_final = newFile("Cendrillon.txt");
+                image_final = newFile("../ressources/Cendrillon.txt");
             }else if (matiere == histoire){
-                image_final = newFile("Olaf.txt");
+                image_final = newFile("../ressources/Olaf.txt");
             }else if (matiere == geo){
-                image_final = newFile("Dora.txt");
+                image_final = newFile("../ressources/Dora.txt");
             }else if (matiere == français){
-                image_final = newFile("Luigi.txt");
+                image_final = newFile("../ressources/Luigi.txt");
              }else if (matiere == anglais){
-                image_final = newFile("Minnie.txt");
+                image_final = newFile("../ressources/Minnie.txt");
             }
             println();
             avance += 1;
@@ -397,15 +397,15 @@ class EtoileMysterieuse extends Program{
                 println(readLine(image_final));
             }
             if (matiere == maths){
-                image_final = newFile("Cendrillon.txt");
+                image_final = newFile("../ressources/Cendrillon.txt");
             }else if (matiere == histoire){
-                image_final = newFile("Olaf.txt");
+                image_final = newFile("../ressources/Olaf.txt");
             }else if (matiere == geo){
-                image_final = newFile("Dora.txt");
+                image_final = newFile("../ressources/Dora.txt");
             }else if (matiere == français){
-                image_final = newFile("Luigi.txt");
+                image_final = newFile("../ressources/Luigi.txt");
             }else if (matiere == anglais){
-                image_final = newFile("Minnie.txt");
+                image_final = newFile("../ressources/Minnie.txt");
             }
             println();
             println("Avez-vous deviné de quel personnage s\'agit-il ?");
@@ -462,15 +462,15 @@ class EtoileMysterieuse extends Program{
         points = 0;
         avance = 0; 
         if (matiere == maths){
-            image_final = newFile("Cendrillon.txt");
+            image_final = newFile("../ressources/Cendrillon.txt");
         }else if (matiere == histoire){
-            image_final = newFile("Olaf.txt");
+            image_final = newFile("../ressources/Olaf.txt");
         }else if (matiere == geo){
-            image_final = newFile("Dora.txt");
+            image_final = newFile("../ressources/Dora.txt");
         }else if (matiere == français){
-            image_final = newFile("Luigi.txt");
+            image_final = newFile("../ressources/Luigi.txt");
         }else if (matiere == anglais){
-            image_final = newFile("Minnie.txt");
+            image_final = newFile("../ressources/Minnie.txt");
         }
         do{
             delay(300);
